@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api/products") //name of endpoint
 @CrossOrigin(origins = "http://localhost:5173")
 public class ProductController {
-
+//new comment
     @Autowired
     private ProductRepository productRepository;
 
